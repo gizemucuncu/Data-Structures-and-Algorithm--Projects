@@ -49,3 +49,21 @@ __Yukarıdaki dizinin sort türüne göre aşamalarını yazınız.__
 
 __Big-O gösterimini yazınız.__
 O(nlogn)
+
+
+## PROJE-3
+__[7, 5, 1, 8, 3, 6, 0, 9, 4, 2] dizisinin Binary-Search-Tree aşamalarını yazınız.__
+
+__Örnek: root x'dir. root'un sağından y bulunur. Solunda z bulunur vb.__
+
+                             6
+                           /   \ 
+                          5     7
+                        /         \
+                       1           8
+                     /   \           \
+                    0     3           9
+                        /   \      
+                       2     4 
+
+- Root 6'dır. Listede sırasıyla 6 dan küçük değerler rootun soluna, büyük değerler ise rootun sağına yerleştirilir.
